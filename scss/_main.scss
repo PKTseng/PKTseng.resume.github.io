@@ -1,0 +1,226 @@
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.name{
+    font-size: 80px;
+    padding: 10px;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+hr{
+    font-weight: bold;
+    border: 1px solid #000;
+}
+img{
+    margin-top: 30px;
+}
+.profile{
+    h2{
+        margin-top: 38px;
+        font-weight: bold;
+        font-size: 32px;
+        padding: 10px;
+        span{
+            color: #A00404;
+            font-size: 24px;
+        }
+    }
+    .point{
+        position: relative;
+        font-size: 24px;
+        font-family: 微軟正黑體;
+        margin-bottom: 24px;
+        li{
+            line-height: 1.5;
+            margin-left: 55px;
+            
+        }
+    }
+    .point-item:before{
+        content:'';
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background-color: #96A9C4;
+        border-radius: 50%;
+        left: 20px;
+        top: 10px;
+    }
+}
+
+.education{
+    h2{
+        margin-top: 38px;
+        font-weight: bold;
+        font-size: 32px;
+        padding: 10px;
+        span{
+            color: #A00404;
+            font-size: 24px;
+        }
+    }
+
+    .education-point{
+        position: relative;
+        font-size: 24px;
+        font-family: 微軟正黑體;
+        margin-bottom: 24px;
+        li{
+            line-height: 1.5;
+            margin-left: 55px;
+            margin-bottom: 32px;
+        }
+    }
+    .education-item::before{
+        content:'';
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background-color: #96A9C4;
+        border-radius: 50%;
+        left: 20px;
+        margin-top: 10px;
+    }
+    .timeLine::after{
+        content: "";
+        position: absolute;
+        border-left: 1px solid #96A9C4;
+        top: 25px;
+        bottom: 25px;
+        left: 28px;
+        }
+}
+
+.container{
+    margin: 0 auto;
+    width: 1280px;
+    background-color: #415165;
+	margin: 0 auto;
+	padding:24px 0 56px 0;
+    color: white;
+    position: relative;
+    ::after{
+        content: "";
+        display: block;
+        height: 360px;
+        width: 1920px;
+        position: absolute;
+        background-color: #96A9C4;
+        z-index: -1;
+        top: 15%;
+        transform: translateY(-10%);
+        transform: translateX(-25%);
+        }
+    h2{
+        width: 996px;
+        font-size: 32px;
+        border-bottom: 1px solid white;
+        text-align: center;
+        line-height: 45px;
+        margin: 0 auto 40px auto;
+        padding-bottom: 10px;
+    }
+    .skill{
+        width: 216px;
+        padding-left: 23px;
+        border-left: 1px solid #96A9C4;
+        margin: 0 auto; 
+    }
+    .skillList{
+        font-size: 24px;
+        font-weight: lighter;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+}
+
+.section{
+    margin-top: 72px;
+    .section-title{
+        font-size: 32px;
+        font-weight: bold;
+        border-bottom: 1px solid black;
+        margin-bottom: 30px;
+        padding: 20px;
+        span{
+            color: #A00404;
+            font-size: 24px;
+            padding: 20px;
+            font-weight: 900;
+        }
+    }
+    .content{
+        margin-left: 40px;
+        padding: 20px;
+        border-left:  1px solid gray;
+
+        
+    }
+    h3,ul{
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .hexLogo{
+        margin-bottom: 8px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+        color: #000000;
+    }
+    li{
+        margin-top: 32px;
+    }
+    .treeLogo{
+        margin: 8px 0;
+    }
+}
+
+.footer{
+    background-color: #415165;
+    width: 1280px;
+    padding-bottom: 48px;
+    .footer-title{
+        font-size: 32px;
+        line-height: 45px;
+        color: #ffffff;
+        border-bottom: 1px solid white;
+        width: 996px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 24px;
+        padding-bottom: 18px;
+    }
+    small{
+        padding-left: 16px;
+        font-size: 24px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        font-weight: 100;
+
+    }
+    .list{
+        margin: 0;
+        margin: 16px 0px;
+        font-size: 24px;
+    }
+    .contact-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0;
+        img{
+            margin: 0;
+            padding: 0px 12px;
+        }
+        
+    }
+}
