@@ -50,24 +50,31 @@ table {
 }
 
 body {
-  max-width: 1280px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
-.name {
+.header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header .name {
   font-size: 80px;
   padding: 10px;
   margin-top: 48px;
   margin-bottom: 32px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 48px;
 }
 
-hr {
-  font-weight: bold;
-  border: 1px solid #000;
-}
-
-img {
+.header img {
   margin-top: 30px;
+}
+
+.profile {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .profile h2 {
@@ -103,6 +110,11 @@ img {
   border-radius: 50%;
   left: 20px;
   top: 10px;
+}
+
+.education {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .education h2 {
@@ -151,28 +163,25 @@ img {
 }
 
 .container {
+  width: 1200px;
   margin: 0 auto;
-  width: 1280px;
   background-color: #415165;
-  margin: 0 auto;
   padding: 24px 0 56px 0;
   color: white;
   position: relative;
+  height: 496px;
 }
 
-.container ::after {
-  content: "";
-  display: block;
-  height: 360px;
-  width: 1920px;
+.container .container-bg {
   position: absolute;
-  background-color: #96A9C4;
-  z-index: -1;
+  width: 100vw;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 360px;
+  left: 50%;
   top: 15%;
-  -webkit-transform: translateY(-10%);
-          transform: translateY(-10%);
-  -webkit-transform: translateX(-25%);
-          transform: translateX(-25%);
+  z-index: -1;
+  background-color: #96A9C4;
 }
 
 .container h2 {
@@ -186,10 +195,12 @@ img {
 }
 
 .container .skill {
-  width: 216px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-60%);
+          transform: translateX(-60%);
   padding-left: 23px;
   border-left: 1px solid #96A9C4;
-  margin: 0 auto;
 }
 
 .container .skillList {
@@ -200,6 +211,8 @@ img {
 }
 
 .section {
+  width: 1200px;
+  margin: 0 auto;
   margin-top: 72px;
 }
 
@@ -249,8 +262,10 @@ img {
 
 .footer {
   background-color: #415165;
-  width: 1280px;
+  max-width: 100%;
   padding-bottom: 48px;
+  margin: 0 auto;
+  display: block;
 }
 
 .footer .footer-title {
