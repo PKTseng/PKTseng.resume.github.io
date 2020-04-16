@@ -1,3 +1,4 @@
+// ----------以下這段為通用class-----------
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -53,7 +54,9 @@
         top: 18px;
         left: -24px;
         }
+// ------------------以上為通用class------------
 
+/* header */
 .header{
     .name{
         font-size: 80px;
@@ -66,6 +69,7 @@
     }
 }
 
+/* profile */
 .profile{
     .title {
         align-items: center;
