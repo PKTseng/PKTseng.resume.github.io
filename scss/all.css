@@ -89,6 +89,7 @@ html {
 .title h2 {
   font-size: 32px;
   line-height: 45px;
+  font-family: 'PingFang TC';
 }
 
 .title span {
@@ -96,6 +97,7 @@ html {
   line-height: 32px;
   color: #A00404;
   padding-left: 16px;
+  font-family: 'Roboto';
 }
 
 .point-item:before {
@@ -119,6 +121,7 @@ html {
   left: -24px;
 }
 
+/* header */
 .header .name {
   font-size: 80px;
   line-height: 90px;
@@ -127,9 +130,10 @@ html {
 }
 
 .header img {
-  padding: 48q;
+  padding: 48px;
 }
 
+/* profile */
 .profile .title {
   -webkit-box-align: center;
       -ms-flex-align: center;

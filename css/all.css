@@ -74,12 +74,14 @@ html {
   margin-bottom: 16px; }
   .title h2 {
     font-size: 32px;
-    line-height: 45px; }
+    line-height: 45px;
+    font-family: 'PingFang TC'; }
   .title span {
     font-size: 24px;
     line-height: 32px;
     color: #A00404;
-    padding-left: 16px; }
+    padding-left: 16px;
+    font-family: 'Roboto'; }
 
 .point-item:before {
   content: "";
@@ -100,6 +102,7 @@ html {
   top: 18px;
   left: -24px; }
 
+/* header */
 .header .name {
   font-size: 80px;
   line-height: 90px;
@@ -107,8 +110,9 @@ html {
   border-bottom: 2px solid #000; }
 
 .header img {
-  padding: 48q; }
+  padding: 48px; }
 
+/* profile */
 .profile .title {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -125,6 +129,7 @@ html {
 .profile li {
   position: relative; }
 
+/* education */
 .education ul {
   padding-left: 48px; }
 
@@ -132,6 +137,7 @@ html {
   margin-bottom: 32px;
   position: relative; }
 
+/*.skill*/
 .skill-bg {
   position: relative; }
   .skill-bg:after {
@@ -182,36 +188,27 @@ html {
     bottom: 0;
     left: -23px; }
 
-experience
-.title
+/* experience */
 .experienceItem {
-  margin-left: 40px;
-  padding: 20px;
-  border-left: 1px solid gray; }
-  experience
-.title
-.experienceItem:before {
+  position: relative;
+  padding-left: 48px; }
+  .experienceItem:before {
     content: "";
     position: absolute;
     border-left: 1px solid #96A9C4;
     top: 0;
     bottom: 0;
     left: 24px; }
-  experience
-.title
-.experienceItem h3 {
-    margin-top: 24px; }
-  experience
-.title
-.experienceItem img {
+  .experienceItem h3 {
+    margin-top: 32px; }
+  .experienceItem img {
     padding: 8px 0 8px 0; }
-  experience
-.title
-.experienceItem p {
+  .experienceItem p {
     font-size: 20px;
     line-height: 30px;
     max-width: 642px; }
 
+/* footer */
 .footer {
   color: #fff;
   background-color: #415165;
